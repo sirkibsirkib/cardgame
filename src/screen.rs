@@ -1,6 +1,8 @@
-const WIDTH: usize = 80;
-const HEIGHT: usize = 18;
+const WIDTH: usize = 60;
+const HEIGHT: usize = 25;
 const PIXELS: usize = WIDTH * HEIGHT;
+
+use card::Database;
 
 pub struct Screen {
 	art: [char; PIXELS],
